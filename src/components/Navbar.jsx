@@ -8,7 +8,7 @@ const Navbar = () => {
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <span className="self-center text-5xl  font-extrabold whitespace-nowrap dark:text-white"><img style={{width:'70%'}} src={logo} alt=""/></span>
+      <span className="self-center text-5xl  font-extrabold whitespace-nowrap dark:text-white"><img style={{width:'70%'}} src={logo} alt=""/></span>d
   </a>
   <div className="flex md:order-2">
     <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
