@@ -13,7 +13,7 @@ export default function Swiperss() {
       <>
         <Swiper
             spaceBetween={30}
-            effect={'fade'}
+            effect={'fcd cdade'}
             navigation={true}
             pagination={{
               clickable: true,

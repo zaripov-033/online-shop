@@ -5,6 +5,9 @@ import {BrowserRouter, Routes , Route} from "react-router-dom"
 import {LogInRegister} from "./components/Registerlogin/Registerlogin.jsx";
 import {Layout} from "./components/layout/layout.jsx";
 import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
+import {HomePage} from "./components/homepage/Home.jsx";
+import {Faq} from "./components/Faq/Faq.jsx";
 
 function App() {
     useEffect(() => {
@@ -21,6 +24,9 @@ function App() {
                <Route path={"/"} element={<Layout/>}>
                    <Route path={"login_register"} element={<LogInRegister/>}/>
                    <Route index element={<Dashboard/>}/>
+                   <Route path={"/product"} element={<HomePage/>}/>
+                   <Route path={"/about"} element={<Faq/>}/>
+                   <Route path={"*"} element={<NotFound />}/>
                </Route>
            </Routes>
        </BrowserRouter>
