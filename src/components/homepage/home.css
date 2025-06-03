@@ -189,3 +189,64 @@
              box-shadow: 1px 1px 10px 0px #FDBD00;
          }
 }
+@media (max-width: 768px) {
+    .famous {
+        font-size: 30px;
+        margin-left: 3% !important;
+    }
+
+    .card {
+        width: 15rem;
+        height: auto;
+    }
+
+    .image_container {
+        height: 14rem;
+    }
+
+    .cart-button {
+        font-size: 0.7rem;
+        width: 60% !important;
+    }
+
+    .twicediv .second {
+        width: 90%;
+    }
+
+    .showmore {
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .famous {
+        font-size: 24px;
+        margin-left: 2% !important;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin: 1rem 0.5rem;
+    }
+
+    .image_container {
+        height: 12rem;
+    }
+
+    .cart-button {
+        font-size: 0.65rem;
+        width: 70% !important;
+    }
+
+    .twicediv .second {
+        width: 95%;
+    }
+
+    .showmore {
+        width: 70%;
+        font-size: 18px;
+    }
+}
+
