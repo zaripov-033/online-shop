@@ -3,28 +3,122 @@ import "./home.css";
 
 export const HomePage = () => {
     const cards = [
-        { id: 1, brandName: "Nike", price: 299, img: "" },
-        { id: 2, brandName: "Adidas", price: 320, img: "" },
-        { id: 3, brandName: "Puma", price: 280, img: "" },
-        { id: 4, brandName: "Reebok", price: 310, img: "" },
-        { id: 5, brandName: "New Balance", price: 270, img: "" },
-        { id: 6, brandName: "Converse", price: 250, img: "" },
-        { id: 7, brandName: "Vans", price: 260, img: "" },
-        { id: 8, brandName: "Fila", price: 300, img: "" },
-        { id: 9, brandName: "Under Armour", price: 290, img: "" },
-        { id: 10, brandName: "Jordan", price: 350, img: "" },
-        { id: 11, brandName: "Asics", price: 275, img: "" },
-        { id: 12, brandName: "Skechers", price: 240, img: "" },
-        { id: 13, brandName: "Balenciaga", price: 400, img: "" },
-        { id: 14, brandName: "Gucci", price: 500, img: "" },
-        { id: 15, brandName: "Prada", price: 450, img: "" },
-        { id: 16, brandName: "Louis Vuitton", price: 600, img: "" },
+        {
+            id: 1,
+            brandName: "Nike",
+            price: 299,
+            img: "" },
+        {
+            id: 2,
+            brandName: "Adidas",
+            price: 320,
+            img: "" },
+        {
+            id: 3,
+            brandName: "Puma",
+            price: 280,
+            img: "" },
+        {
+            id: 4,
+            brandName: "Reebok",
+            price: 310,
+            img: ""
+        },
+        {
+            id: 5,
+            brandName: "New Balance",
+            price: 270,
+            img: ""
+        },
+        {
+            id: 6,
+            brandName: "Converse",
+            price: 250,
+            img: ""
+        },
+        { id: 7,
+            brandName: "Vans",
+            price: 260,
+            img: ""
+        },
+        {
+            id: 8,
+            brandName: "Fila",
+            price: 300,
+            img: ""
+        },
+        {
+            id: 9,
+            brandName: "Under Armour",
+            price: 290,
+            img: ""
+        },
+        {
+            id: 10,
+            brandName: "Jordan",
+            price: 350,
+            img: "" },
+        {
+            id: 11,
+            brandName: "Asics",
+            price: 275,
+            img: "" },
+        {
+            id: 12,
+            brandName: "Skechers",
+            price: 240,
+            img: ""
+        },
+        {
+            id: 13,
+            brandName: "Balenciaga",
+            price: 400,
+            img: ""
+        },
+        {
+            id: 14,
+            brandName: "Gucci",
+            price: 500,
+            img: ""
+        },
+        {
+            id: 15,
+            brandName: "Prada",
+            price: 450,
+            img: ""
+        },
+        {
+            id: 16,
+            brandName: "Louis Vuitton",
+            price: 600,
+            img: ""
+        },
     ];
     const card = [
-        { id: 1, brandName: "Nike", price: 299, img: "" },
-        { id: 2, brandName: "Adidas", price: 320, img: "" },
-        { id: 3, brandName: "Puma", price: 280, img: "" },
-        { id: 4, brandName: "Reebok", price: 310, img: "" },
+        {
+            id: 1,
+            brandName: "Nike",
+            price: 299,
+            img: ""
+        },
+        {
+            id: 2,
+            brandName: "Adidas",
+            price: 320,
+            img: ""
+        },
+        {
+            id: 3,
+            brandName: "Puma",
+            price: 280,
+            img: ""
+        },
+        {
+            id: 4,
+            brandName: "Reebok",
+            price: 310,
+            img: ""
+        },
     ];
 
     const [visibleCount, setVisibleCount] = useState(8);
